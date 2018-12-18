@@ -1,0 +1,248 @@
+*{margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: "Open Sans" , Verdana;
+}
+
+.primera img{   /*imagen de cabecera*/
+	width: 100%;
+	/*max-width: 1349px;*/
+	/*width:1349px;*/
+	/*margin: auto;*/
+	/*margin: auto;
+	text-align:center;*/
+}
+
+.carousel-caption h3{
+color: #000;
+font-size: 30px;
+font-family: monospace;
+ text-shadow: 0px 0px 50px white;
+}
+.carousel-caption p{
+font-size: 20px;
+ text-shadow: 0px 0px 50px white;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+.container{
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+/*slider*/
+#slider{
+  height: 500px;
+  background:  #F0DC43;
+}
+
+#slider h2{
+  font-family: serif;
+  font-size: 70px;
+  text-align: center;
+ /* background: url(../imagenes/code.jpg);*/
+  background: url(../imagenes/isc1.jpeg);
+  line-height: 495px;
+  text-shadow: 0px 0px 50px white;
+  color: #000;
+  
+}
+
+/*#slider h2{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  line-height: 290px;
+  text-shadow: 0px 0px 6px black;
+}*/
+
+
+.subheader{
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  /*cambiamos el color rojo a un rgba con alfa claro
+  podemos usaar la pag hex  color tool y bajamos el alfa*/
+  border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+}
+
+.ser{
+   width:100%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.ser h3{
+  margin-bottom: 15px;
+  font-family: "Open Sans" , Verdana;
+}
+
+.serv{
+   width:50%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.serv h3{
+  margin-bottom: 15px;
+  font-family: "Open Sans" , Verdana;
+}
+
+.service{
+  width: 33%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*al hacer esto el encabezado se sube para evitar
+  vamos a crear un div y le aplicamos el clearfix
+  que creamos, para esto creo un div antes de los videos
+  <div clas="claerfix"...></>
+  */
+}
+.service img{
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+.service h3{
+  margin-bottom: 15px;
+  font-family: "Open Sans" , Verdana;
+}
+
+.service p{
+  
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+.video{
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*al hacer esto el encabezado se sube para evitar
+  vamos a crear un div y le aplicamos el clearfix
+  que creamos, para esto creo un div antes de los videos
+  <div clas="claerfix"...></>
+  */
+}
+
+
+.video p{
+  color: #444;
+  text-align: center;
+  display: block;/*hacer esto me permite poder usar un porcentaje despues en el objeto*/
+  width: 85%;
+  /*para que centre*/
+  margin: 0px auto;
+}
+
+/*videos*/
+.video iframe{
+  text-align: center;
+}
+
+
+
+
+/* pie de pajina*/
+
+#footer{  /* pie de pajina
+	clear:both;
+	width:950;
+	height:50px;
+	background-color: #333; 
+	text-align: center;
+	color:white;
+	line-height:50px;*/
+
+  background: #0C0B0B;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+#footer .subheader{
+  color: white;
+}
+#networks{
+  display: block;
+  width: 220px; /*alinea las imagenes en el centro*/
+  margin: 0px auto;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#networks li{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 300ms; 
+}
+
+#networks li:hover{
+  opacity: 0.8;
+  transform: scale(1.1,1.1);
+}
+
+.subheader{
+  font-size: 30px;
+  color: #F0DC43;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  /*cambiamos el color rojo a un rgba con alfa claro
+  podemos usaar la pag hex  color tool y bajamos el alfa*/
+  border-bottom: 2px solid rgba(240, 220, 67);
+}
+
+
+@media screen and (max-width:1140px){
+
+/*slider*/
+#slider{
+  height: 345px;
+  background:  #F0DC43;
+}
+
+	#slider h2{
+  font-size: 50px;
+  text-align: center;
+  /*background: url(../imagenes/code.jpg);*/
+  line-height: 665px;
+  text-shadow: 0px 0px 50px white;  
+}
+
+  @media screen and (max-width:800px){
+
+	#slider h2{
+
+  font-size: 50px;
+  text-align: center;
+  background: url(../imagenes/isc2.jpeg);
+  line-height: 340px;
+  text-shadow: 0px 0px 35px white; 
+}
+
+
+
+
+
